@@ -4,23 +4,23 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=ExampleKernel by osm0sis @ xda-developers
+kernel.string=Onii-Chan-Ruka_Kernel_for_RMX1821
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=maguro
-device.name2=toro
-device.name3=toroplus
-device.name4=tuna
-device.name5=
+device.name1=RMX1821
+device.name2=RMX1822
+device.name3=RMX1823
+device.name4=RMX1825
+device.name5=RMX1827
 supported.versions=
 supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=/dev/block/platform/omap/omap_hsmmc.0/by-name/boot;
+block=/dev/block/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
